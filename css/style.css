@@ -24,7 +24,7 @@ body {
     font-weight: 400;
 }
 
-.div_logo {
+.logo-container {
     display: flex;
     align-items: center;
 }
@@ -34,7 +34,7 @@ body {
     padding: 2.51vw 0 2.08vw 2.51vw;
 }
 
-.navegacion {
+.nav-menu {
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ body {
     padding: 1.73vw 2.6vw;
 }
 
-.navegacion_lista {
+.nav-menu_lista {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,12 +52,12 @@ body {
     padding: 0;
 }
 
-.navegacion_lista li {
+.nav-menu_lista li {
     display: flex;
     align-items: center;
 }
 
-.navegacion_lista a.enlaces {
+.nav-menu_lista a.nav-link {
     display: flex;
     align-items: center;
     gap: 0.87vw;
@@ -67,7 +67,7 @@ body {
     color: #1d1e20;
 }
 
-.navegacion_lista a.enlaces:hover {
+.nav-menu_lista a.nav-link:hover {
     color: #737374;
 }
 
@@ -75,7 +75,7 @@ body {
     filter: drop-shadow(0.13vw 0 black);
 }
 
-.barra_derecha {
+.nav-actions {
     position: absolute;
     right: 3.47vw;
     display: flex;
@@ -84,23 +84,23 @@ body {
     cursor: pointer;
 }
 
-.barra_derecha .bandera {
+.nav-actions .language-selector {
     display: flex;
     font-weight: bold;
     gap: 0.43vw;
 }
 
-.barra_derecha .bandera span {
+.nav-actions .language-selector span {
     margin-top: 0.17vw;
     line-height: 1;
     font-size: 1.02vw;
 }
 
-.bandera img {
+.language-selector img {
     height: 1.3vw;
 }
 
-.Buttom-cuenta {
+.btn-account {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@ body {
     margin-top: -0.87vw;
 }
 
-.Buttom-cuenta:hover {
+.btn-account:hover {
     color: #737374;
     border-color: #737374;
 }
@@ -127,7 +127,7 @@ body {
 }
 
 
-.promo-section {
+.hero-section {
     display: flex;
     align-items: center;
     max-width: 95.33vw;
@@ -136,21 +136,21 @@ body {
     gap: 2.6vw;
 }
 
-.promo-text p {
+.hero-content p {
     font-size: 1.25vw;
 }
 
-.promo-text {
+.hero-content {
     flex: 1;
     max-width: 45.33vw;
 }
 
-.promo-overline {
+.hero-badge {
     font-size: 1.3vw;
     font-weight: bold;
 }
 
-.highlight {
+.accent-text {
     color: #673de6;
 }
 
@@ -159,13 +159,13 @@ h1 {
     margin: 0.87vw 0 1.73vw;
 }
 
-.promo-benefits {
+.features-list {
     list-style: none;
     padding: 0;
     margin: 0 0 1.73vw;
 }
 
-.promo-benefits li {
+.features-list li {
     display: flex;
     align-items: center;
     margin-bottom: 0.017vw;
@@ -268,7 +268,7 @@ h1 {
 }
 
 
-.migracion {
+.migration-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +279,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.migracion__body {
+.migration-section__body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,17 +292,17 @@ h1 {
     margin-bottom: 2.13vw;
 }
 
-.migracion__body h2 {
+.migration-section__body h2 {
     font-size: 2.33vw;
 }
 
-.migracion__body p {
+.migration-section__body p {
     font-size: 1.07vw;
     margin-top: 0.5px;
     line-height: 1.6;
 }
 
-.migracion__card {
+.migration-section__card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -311,7 +311,7 @@ h1 {
     margin: 0 18.69vw;
 }
 
-.migracion__card .migracion__card_individual {
+.migration-section__card .migration-section__card_individual {
     display: flex;
     flex-direction: column;
     width: 19.87vw;
@@ -322,7 +322,7 @@ h1 {
     border-radius: 1.11vw;
 }
 
-.migracion__card_individual span {
+.migration-section__card_individual span {
     margin-top: 0.93vw;
     display: block;
     margin-bottom: 0.8vw;
@@ -331,14 +331,14 @@ h1 {
     text-align: left;
 }
 
-.migracion__card_individual p {
+.migration-section__card_individual p {
     text-align: left;
     font-size: 1.03vw;
     margin: 0;
     line-height: 1.4;
 }
 
-.migracion__card_individual .img {
+.migration-section__card_individual .img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,7 +349,7 @@ h1 {
     flex-shrink: 0;
 }
 
-.migracion__card_individual .img .bi {
+.migration-section__card_individual .img .bi {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -358,23 +358,23 @@ h1 {
     font-size: inherit;
 }
 
-.migracion__card_individual .img .bi-lightning-charge {
+.migration-section__card_individual .img .bi-lightning-charge {
     width: 85%;
     height: 85%;
 }
 
-.migracion .boton {
+.migration-section .cta-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2.22vw 0 0;
 }
 
-.migracion .boton a {
+.migration-section .cta-container a {
     text-decoration: none;
 }
 
-.boton .__boton {
+.cta-container .__cta-container {
     margin-top: 1.2vw;
     display: flex;
     padding: 1.04vw 3.2vw;

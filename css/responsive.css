@@ -1,8 +1,8 @@
 @media (max-width: 1140px) {
 
-    .navegacion_lista,
-    .barra_derecha>.bandera,
-    .barra_derecha>.Buttom-cuenta {
+    .nav-menu_lista,
+    .nav-actions>.language-selector,
+    .nav-actions>.btn-account {
         display: none;
     }
 
@@ -20,11 +20,11 @@
         z-index: 9999;
     }
 
-    .navegacion.oculto {
+    .nav-menu.oculto {
         display: none;
     }
 
-    .navegacion.visible {
+    .nav-menu.visible {
         display: block;
         background: #fff;
         position: absolute;
@@ -42,7 +42,7 @@
         width: 14vw;
     }
 
-    .promo-section {
+    .hero-section {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -81,11 +81,11 @@
         margin: 0.87vw 0 1.73vw;
     }
 
-    .promo-text p {
+    .hero-content p {
         font-size: 1.6vw;
     }
 
-    .promo-benefits li {
+    .features-list li {
         display: flex;
         align-items: center;
         margin-bottom: 0.017vw;
@@ -111,54 +111,54 @@
         height: auto;
     }
 
-    .migracion {
+    .migration-section {
         height: 100%;
     }
 
-    .migracion__body {
+    .migration-section__body {
         width: 68vw;
     }
 
-    .migracion__body h2 {
+    .migration-section__body h2 {
         font-size: 2.53vw;
     }
 
-    .migracion__body p {
+    .migration-section__body p {
         font-size: 1.57vw;
     }
 
-    .migracion__card {
+    .migration-section__card {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
-    .migracion__card .migracion__card_individual {
+    .migration-section__card .migration-section__card_individual {
         width: 100%;
         height: auto;
         padding: 20px;
         border-radius: 16 px;
     }
 
-    .migracion__card_individual span {
+    .migration-section__card_individual span {
         font-size: 115.2%;
         margin-bottom: 2vw;
     }
 
-    .migracion__card_individual p {
+    .migration-section__card_individual p {
         text-align: left;
         font-size: 97.8%;
         margin: 0;
         line-height: 1.4;
     }
 
-    .migracion__card_individual .img {
+    .migration-section__card_individual .img {
         width: 40px;
         height: 40px;
         margin-bottom: 0.7vw;
     }
 
-    .migracion__card_individual .img i {
+    .migration-section__card_individual .img i {
         font-size: 5vw;
     }
 
@@ -252,4 +252,7 @@
 }
 
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+
+}
