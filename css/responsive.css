@@ -1,0 +1,255 @@
+@media (max-width: 1140px) {
+
+    .navegacion_lista,
+    .barra_derecha>.bandera,
+    .barra_derecha>.Buttom-cuenta {
+        display: none;
+    }
+
+    .menu-hamburguesa-movil {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: -2vw;
+        transform: translateY(-60%);
+        background: none;
+        border: none;
+        font-size: 2vw;
+        cursor: pointer;
+        color: #000;
+        z-index: 9999;
+    }
+
+    .navegacion.oculto {
+        display: none;
+    }
+
+    .navegacion.visible {
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .Image-logo-hostinger {
+        width: 14vw;
+    }
+
+    .promo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 18vw;
+        margin-top: 1.8vw;
+    }
+
+    .icon-check {
+        font-size: 2.2vw;
+    }
+
+    .icon-question {
+        font-size: 1.3vw;
+    }
+
+    .icon-shield {
+        font-size: 2vw;
+        margin-right: 2vw;
+        height: 2.3vw;
+    }
+
+    .promo-guarantee {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2vw;
+        color: #1a1a1a;
+    }
+
+    .promo-guarantee span {
+        font-size: 1.5vw;
+    }
+
+    h1 {
+        font-size: 2.5vw;
+        margin: 0.87vw 0 1.73vw;
+    }
+
+    .promo-text p {
+        font-size: 1.6vw;
+    }
+
+    .promo-benefits li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.017vw;
+        font-size: 1.54vw;
+        color: #333;
+    }
+
+    .promo-button {
+        padding: 1.5vw 5.2vw;
+        text-decoration: none;
+        font-size: 1.45vw;
+        border-radius: 0.82vw;
+    }
+
+    .promo-image {
+        max-width: 100%;
+        justify-content: flex-start;
+        margin-right: 12vw;
+    }
+
+    .promo-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .migracion {
+        height: 100%;
+    }
+
+    .migracion__body {
+        width: 68vw;
+    }
+
+    .migracion__body h2 {
+        font-size: 2.53vw;
+    }
+
+    .migracion__body p {
+        font-size: 1.57vw;
+    }
+
+    .migracion__card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .migracion__card .migracion__card_individual {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border-radius: 16 px;
+    }
+
+    .migracion__card_individual span {
+        font-size: 115.2%;
+        margin-bottom: 2vw;
+    }
+
+    .migracion__card_individual p {
+        text-align: left;
+        font-size: 97.8%;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .migracion__card_individual .img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0.7vw;
+    }
+
+    .migracion__card_individual .img i {
+        font-size: 5vw;
+    }
+
+    .sections-footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 40px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .sections-footer h2 {
+        font-size: 1.8vw;
+    }
+
+    .sections-footer a {
+        text-decoration: none;
+        color: #26272a;
+        font-size: 1.5vw;
+    }
+
+    .footer-bottom .footer-bottom-left .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+
+    .footer-links-ipad {
+        display: block;
+    }
+
+    .footer-links-ipad a {
+        color: #151515;
+        justify-content: flex-end;
+        text-decoration: none;
+        font-size: 1.5vw;
+        transition: color 0.3s ease;
+        white-space: nowrap;
+        margin-right: 15px;
+
+    }
+
+    .footer-links-ipad a:hover {
+        color: #793de6;
+    }
+
+    .footer-links {
+        display: none;
+    }
+
+    .payment-methods img {
+        height: 4.5vw;
+        margin-top: 15px;
+    }
+
+    .payment-methods span {
+        margin-top: 12px;
+        font-size: 1.57vw;
+    }
+
+    .social-links {
+        gap: 2vw;
+        justify-content: flex-start;
+        padding-right: 40%;
+    }
+
+    .social-links a {
+        width: 3.2vw;
+        height: 3.2vw;
+    }
+
+    .footer-bottom-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.5vw;
+        margin-top: 1.33vw;
+        border-top: 1px solid #ccc;
+        max-width: 93%;
+    }
+
+    .copyright {
+        font-size: 1.5vw;
+    }
+
+    .tax-info {
+        font-size: 1.3vw;
+        max-width: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {}
